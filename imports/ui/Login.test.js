@@ -44,8 +44,6 @@ if (Meteor.isClient) {
 
       spy.calls[0].arguments[2](); // call the err function
       expect(wrapper.state('error')).toBe('');
-
-
     }); //it
 
   }); // describe
